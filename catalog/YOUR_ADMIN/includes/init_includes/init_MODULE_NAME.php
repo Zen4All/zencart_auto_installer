@@ -9,6 +9,7 @@
 
  
  //Just change the stuff above... Nothing down here should need to change
+ $configuration_group_id = '';
  if(defined('MODULE_VERSION')) 
      { 
         $current_version =  constant(MODULE_VERSION); 
