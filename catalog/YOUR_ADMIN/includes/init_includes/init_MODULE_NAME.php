@@ -10,11 +10,9 @@
  
  //Just change the stuff above... Nothing down here should need to change
  $configuration_group_id = '';
- if(defined('MODULE_VERSION')) 
-     { 
-        $current_version =  constant(MODULE_VERSION); 
-     } 
-     else { 
+ if (defined($module_constant)) {
+    $current_version = constant($module_constant);
+} else {
         $current_version = "0.0.0"; 
         $db->Execute("INSERT INTO " . TABLE_CONFIGURATION_GROUP . " (configuration_group_title, configuration_group_description, sort_order, visible) VALUES ('".$module_name."', 'Set ".$module_name." Options', '1', '1');");
         $configuration_group_id = $db->Insert_ID();
