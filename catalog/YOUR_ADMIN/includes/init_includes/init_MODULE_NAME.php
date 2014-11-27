@@ -76,7 +76,6 @@ if (!function_exists('plugin_version_check_for_updates')) {
             return FALSE;
         }
     }
-
 }
 
  
