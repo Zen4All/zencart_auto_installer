@@ -10,9 +10,9 @@ if (!defined('IS_ADMIN_FLAG')) {
     die('Illegal Access');
 }
 
-$module_constant = 'MODULE_VERSION';
-$module_installer_directory = DIR_FS_ADMIN . 'includes/installers/MODULE_NAME';
-$module_name = "NEW MODULE NAME";
+$module_constant = 'MODULE_VERSION'; // This should be a UNIQUE name followed by _VERSION for convention
+$module_installer_directory = DIR_FS_ADMIN . 'includes/installers/MODULE_NAME'; // This is the directory your installer is in, usually this is lower case
+$module_name = "NEW MODULE NAME"; // This should be a plain English or Other in a user friendly way
 $zencart_com_plugin_id = 0; // from zencart.com plugins - Leave Zero not to check
 //Just change the stuff above... Nothing down here should need to change
 
