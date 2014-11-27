@@ -9,4 +9,18 @@ Step 4.) Change the details in the file you renamed in step 3
         c.) $module_name - This should be a plain English or Other in a user friendly way
         d.) -OPTIONAL- $zencart_com_plugin_id - Get this from zencart.com plugins or Leave Zero not to check
 Step 5.) Change the name of the directory in the installers/ directory to match that from step 4b
-Step 6.) Create your installer files, 1_0_0 has some comments to help you out. You can use the $configuration_group_id, to Identify the configuration Group whenever needed.
+Step 6.) Create your installer files.  
+
+
+Tips for installer files:
+--------------------
+- 1_0_0.php has some comments to help you out.
+- You can use the $configuration_group_id, to Identify the configuration Group whenever needed.
+- Each installer file is what determines the version number, and it will always look
+    for a newer version. So if the current zencart has version 1.2.3 of your module
+    and you add an installer 1_2_29.php it won't install it because it is already at version.
+    If you add a file 1_2_4.php it will run it and change the version number to 1.2.4.
+    No need to do that in the installer
+- Best Practice is to add a short blurb about what changed in the version, so everyone
+    understands why the version changed.
+
