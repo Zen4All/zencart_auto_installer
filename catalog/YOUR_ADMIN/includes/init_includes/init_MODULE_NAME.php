@@ -46,10 +46,10 @@ if (version_compare($newest_version, $current_version) > 0) {
 }
 
 // Version Checking 
-if ($zencart_com_plugin_id != FALSE) {
+if ($zencart_com_plugin_id != 0) {
     $new_version_details = plugin_version_check_for_updates($zencart_com_plugin_id, $current_version);
     if ($_GET['gID'] == $configuration_group_id) {
-        $messageStack->add("A New version of " . $module_name . ' is available at <a href="http://www.zen-cart.com/downloads.php?do=file&id=' . $zencart_com_plugin_id . '">Zen-Cart.com</a>', 'caution');
+        $messageStack->add("Version ".$new_version_details['latest_plugin_version']." of " . $new_version_details['title'] . ' is available at <a href="' . $new_version_details['link'] . '" target="_blank">[Details]</a>', 'caution');
     }
 }
 
