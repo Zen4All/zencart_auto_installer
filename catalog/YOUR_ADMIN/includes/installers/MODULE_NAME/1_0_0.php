@@ -25,3 +25,7 @@ if ($zc150) { // continue Zen Cart 1.5.0
 }
  * 
  */
+/*
+ * global $sniffer;
+ * if (!$sniffer->field_exists(TABLE_SOMETHING, 'column'))  $db->Execute("ALTER TABLE " . TABLE_SOMETHING . "ADD column varchar(32) NOT NULL DEFAULT 'both';");
+ */
