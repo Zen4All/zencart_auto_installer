@@ -61,7 +61,7 @@ if (!function_exists('plugin_version_check_for_updates')) {
         }
         $new_version_available = FALSE;
         $lookup_index = 0;
-        $url = 'http://www.zen-cart.com/downloads.php?do=versioncheck' . '&id=' . (int) $fileid;
+        $url = 'https://www.zen-cart.com/downloads.php?do=versioncheck' . '&id=' . (int) $fileid;
         $data = json_decode(file_get_contents($url), true);
         if (!$data || !is_array($data)) return false;
         // compare versions
