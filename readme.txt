@@ -11,6 +11,7 @@ Step 4.) Change the details in the file you renamed in step 3
 Step 5.) Change the name of the directory in the installers/ directory to match that from step 4b
 Step 6.) Modify the includes/extra_datafiles/ to add the box name for the configuration menu dropdown etc.
 Step 7.) Create your installer files.  
+Step 8.) Modify the uninstall.sql, you will need the constant created in 4a and also any admin pages page_key
 
 
 Tips for installer files:
