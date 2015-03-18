@@ -1,0 +1,8 @@
+{
+    "plugin_id": "1971",
+    "github_repo": "https://github.com/bislewl/zencart_auto_installer.git",
+    "name": "ZenCart Auto Installer",
+    "author": "bislewl",
+    "description": "When building custom modules this file set helps developers easily create auto_installers for their modules \n - Supports ZenCart Plugin Update Checks \n - Includes Snippets to help with creating installer files \n - Includes License needed for compliance on zen-cart.com plugins \n \n **NOTE** \n This is for developers/programmers and has no use unless you are building a module, or adding the ability to auto_install a current module",
+    "support_thread": ""
+}

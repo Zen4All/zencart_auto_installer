@@ -13,6 +13,11 @@ Step 6.) Modify the includes/extra_datafiles/ to add the box name for the config
 Step 7.) Create your installer files.  
 Step 8.) Modify the uninstall.sql, you will need the constant created in 4a and also any admin pages page_key
 
+--OPTIONAL--
+Step 9.) Modify all the values in the zencart_plugin.json. 
+            ** This is not yet supported/approved by Zen-Cart.com **
+            My hopes are this will make it easier for moderation in the future
+
 
 Tips for installer files:
 --------------------
