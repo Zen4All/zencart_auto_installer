@@ -29,3 +29,7 @@ if ($zc150) { // continue Zen Cart 1.5.0
  * global $sniffer;
  * if (!$sniffer->field_exists(TABLE_SOMETHING, 'column'))  $db->Execute("ALTER TABLE " . TABLE_SOMETHING . "ADD column varchar(32) NOT NULL DEFAULT 'both';");
  */
+/*
+ * For adding a configuration value
+ * $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_group_id, configuration_key, configuration_title, configuration_value, configuration_description, set_function) VALUES (" . (int) $configuration_group_id . ", 'CONFIGURATION_KEY', 'This a configuration value name', 'true', 'This is the description of the configuration value', 'zen_cfg_select_option(array(\'true\', \'false\'),');");
+ */

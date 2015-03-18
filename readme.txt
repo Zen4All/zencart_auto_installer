@@ -7,7 +7,7 @@ Step 4.) Change the details in the file you renamed in step 3
         a.) $module_constant - This should be a UNIQUE name followed by _VERSION for convention
         b.) $module_installer_directory - This the full directory your installer is in, usually this is lower case
         c.) $module_name - This should be a plain English (or other language) or other in a user friendly way
-        d.) -OPTIONAL- $zencart_com_plugin_id - Get this from zencart.com plugins or Leave Zero not to check
+        d.) -OPTIONAL- $zencart_com_plugin_id - Get this from zencart.com plugins or leave zero not to check
 Step 5.) Change the name of the directory in the installers/ directory to match that from step 4b
 Step 6.) Modify the includes/extra_datafiles/ to add the box name for the configuration menu dropdown etc.
 Step 7.) Create your installer files.  
