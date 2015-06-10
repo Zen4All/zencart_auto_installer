@@ -15,7 +15,7 @@ This is a quick way to make an admin auto-installer for your module.
 7. Create your installer files.  
 8. Modify the uninstall.sql, you will need the constant created in 4a and also any admin pages page_key
 
---OPTIONAL-- 
+--OPTIONAL--  
 Modify all the values in the zencart_plugin.json.  
 ** This is not yet supported/approved by Zen-Cart.com **  
 My hopes are this will make it easier for moderation in the future  
