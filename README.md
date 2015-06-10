@@ -25,6 +25,6 @@ My hopes are this will make it easier for moderation in the future
 * 1_0_0.php has some comments to help you out.
 * You can use the $configuration_group_id, to Identify the configuration Group whenever needed.
 * Each installer file is what determines the version number, and it will always look for a newer version. So if the current zencart has version 1.2.30 of your module and you add an installer 1_2_29.php it won't install it because it is already at version.
-* If you add a file 1_2_31.php it will run it and change the version number to 1.2.31. **No need to do that in the installer**
+* If you add a file 1_2_31.php it will run it and change the version number to 1.2.31. ** No need to do that in the installer **
 * Best Practice is to add a short blurb about what changed in the version, so everyone understands why the version changed.
 
