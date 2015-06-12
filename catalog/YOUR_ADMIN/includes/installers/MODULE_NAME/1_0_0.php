@@ -31,5 +31,5 @@ if ($zc150) { // continue Zen Cart 1.5.0
  */
 /*
  * For adding a configuration value
- * $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_group_id, configuration_key, configuration_title, configuration_value, configuration_description, set_function) VALUES (" . (int) $configuration_group_id . ", 'CONFIGURATION_KEY', 'This a configuration value name', 'true', 'This is the description of the configuration value', 'zen_cfg_select_option(array(\'true\', \'false\'),');");
+ * $db->Execute("INSERT INTO " . TABLE_CONFIGURATION . " (configuration_group_id, configuration_key, configuration_title, configuration_value, configuration_description, sort_order, set_function) VALUES (" . (int) $configuration_group_id . ", 'CONFIGURATION_KEY', 'This a configuration value name', 'true', 'This is the description of the configuration value', 1, 'zen_cfg_select_option(array(\'true\', \'false\'),');");
  */
